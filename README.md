@@ -1,71 +1,61 @@
-# Pharmaceutical-sales-analysis-PowerBI
+# Pharmaceutical Sales Analysis using Power BI
 
-This readme file provides an overview and instructions for understanding the pharmaceutical sales data 
-included in this dataset. Please read the information below to familiarize yourself with the data format, 
-variables, and any additional details.
+## Introduction
 
-## Data Format:
-The data is typically provided in a tabular format as an Excel 
-spreadsheet. Each row represents a specific sales entry, and each column represents a variable mentioned above
- (e.g., Distributer, customer, name, city, country, product name etc ).
+This project focuses on analyzing pharmaceutical sales data to gain valuable insights into the company's performance and customer behavior. The dataset contains information about sales of various drugs or medications, including details such as customer names, cities, countries, product names, quantities purchased, prices, sales amounts, and more. The analysis will be carried out using Power BI to visualize and understand the data effectively.
 
-## Dataset Overview:
-The pharmaceutical sales data contains information about sales of various drugs or medications over a specific 
-period. The dataset includes the following variables:
+## Dataset Overview
 
-Distributor- &nbsp; Name of Wholesaler
+The pharmaceutical sales dataset is provided in a tabular format as an Excel spreadsheet. Each row represents a specific sales entry, while each column represents a different variable, including:
 
-Customer Name- &nbsp; 	Name of customer
-
-City- &nbsp; 	Customer's city
-
-Country- &nbsp; 	Customer's country
-
-Latitude- &nbsp; 	Customer's Geo Latitude
-
-Longitude- &nbsp; 	Customer's Geo Longitude
-
-Channel- &nbsp; 	Class of buyer (Hospital, Pharmacy)
-
-Sub-channel- &nbsp; 	Sector of the buyer (Government, Private, etc.)
-
-Product Name- &nbsp; 	Name of Drug
-
-Product Class- &nbsp; 	Class of Drug (Antibiotics, etc.)
-
-Quantity- &nbsp; 	Quantity purchased
-
-Price- &nbsp; 	Price product was sold for
-
-Sales- &nbsp; 	Amount made from sale
-
-Month- &nbsp; 	Month sale was made
-
-Year- &nbsp; 	Year sale was made
-
-Name of Sales Rep- &nbsp; 		Name of the Sales rep who facilitated the sale
-
-Manager- &nbsp; 		Sales rep's Manager Name
-
-Sales Team- &nbsp; 		Sale rep's team
+- Distributor: Name of the wholesaler.
+- Customer Name: Name of the customer.
+- City: Customer's city.
+- Country: Customer's country.
+- Latitude: Customer's geographic latitude.
+- Longitude: Customer's geographic longitude.
+- Channel: Class of buyer (Hospital, Pharmacy).
+- Sub-channel: Sector of the buyer (Government, Private, etc.).
+- Product Name: Name of the drug.
+- Product Class: Class of the drug (Antibiotics, etc.).
+- Quantity: Quantity purchased.
+- Price: Price the product was sold for.
+- Sales: Amount made from the sale.
+- Month: Month of the sale.
+- Year: Year of the sale.
+- Name of Sales Rep: Name of the sales representative who facilitated the sale.
+- Manager: Sales rep's manager's name.
+- Sales Team: Sales rep's team.
 
 ## Business Requirements
 
-1. Analyse company’s overall sales performance by yearbymonth,by customer cities,by channel,bysub-channel ,top drug class by 
-sales, top drug by sales, top customer city by sales.
+The analysis aims to fulfill the following business requirements:
 
-2. Analyse sales by distributors and product, top 5 product, customer and cities, sales numbers split by channels and 
-sub-channels.
+1. Analyze the company's overall sales performance:
+   - Sales trends over the years and months.
+   - Sales by customer cities, channels, and sub-channels.
+   - Top drug classes and top drugs based on sales.
+   - Top customer cities based on sales.
 
-3. Analyse sales by sales-team split by product and sales by sales-team split by product class.
+2. Analyze sales by distributors and products:
+   - Top 5 products, customers, and cities based on sales.
+   - Sales numbers split by channels and sub-channels.
 
-4. A detailed analysis showing Top sales managers, Top sales reps, Top product split by sales team contributions 
-answering. An ability to filter/slice data by year and months.
+3. Analyze sales by sales teams:
+   - Sales split by product and product class for each sales team.
 
-## Data Cleaning and Transform [PowerQuery Editor]
-The provided dataset was relatively clean and well organized; hence only a little work was required in this step;
- the following steps were carried out...
+4. Detailed analysis of top sales managers and sales representatives:
+   - Top-performing sales managers based on sales contributions.
+   - Top-performing sales representatives based on sales contributions.
+   - Top products split by sales team contributions.
 
-1. Correct column heading provided
-2. Correct data type is assigned to columns
+## Data Cleaning and Transformation [Power Query Editor]
 
+The dataset provided was relatively clean and well-organized, requiring minimal data cleaning. The following steps were performed using Power Query Editor:
+
+1. Correct column headings were provided.
+2. Appropriate data types were assigned to each column.
+
+## Power BI Dashboard
+
+The analysis results and insights will be presented in an interactive Power BI dashboard. The dashboard will allow stakeholders to filter and slice the data by year and months, enabling them to explore and visualize pharmaceutical sales data effectively.
